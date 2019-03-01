@@ -302,7 +302,7 @@ print("Hi", name)
 def home():
     gamechoice = input("Now choose a game, do you want to play hangman or madlibs?: ")
     #Hangman game
-    if gamechoice == 'hangman' or 'Hangman':
+    if gamechoice == 'hangman':
         hangman()
 
     #Madlibs game
