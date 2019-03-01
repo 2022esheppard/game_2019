@@ -1,0 +1,144 @@
+import random
+print("Good choice")
+brave = list("_____")
+learn = list("_____")
+crazy = list("_____")
+graze = list("_____")
+quick = list("_____")
+hmwordchoice = (brave, learn, crazy, graze, quick)
+finalhmword = random.choice (hmwordchoice)
+
+if finalhmword == brave :
+  print(finalhmword)
+  def braveguess():
+    counter = 5
+    while counter != 0:
+      guessbrave = input("Guess a letter:")
+      if guessbrave == 'b':
+        counter = (counter-1)
+        print("That is the first letter of your word")
+      elif guessbrave == 'r':
+        counter = (counter-1)
+        print("That is the second letter of your word")
+      elif guessbrave == 'a':
+        counter = (counter-1)
+        print("That is the third letter of your word")
+      elif guessbrave == 'v':
+        counter = (counter-1)
+        print("That is the fourth letter of your word")
+      elif guessbrave == 'e':
+        counter = (counter-1)
+        print("That is the last letter of your word")
+      else:
+        print("That letter is not in your word")
+      if counter == 0 :
+        print("Congrats you have figured out your word: BRAVE")
+  braveguess()
+
+elif finalhmword == learn :
+  print(finalhmword)
+  def learnguess():
+    counter = 5
+    while counter != 0:
+      guesslearn = input("Guess a letter:")
+      if guesslearn == 'l':
+        counter = (counter-1)
+        print("That is the first letter of your word")
+      elif guesslearn == 'e':
+        counter = (counter-1)
+        print("That is the second letter of your word")
+      elif guesslearn == 'a':
+        counter = (counter-1)
+        print("That is the third letter of your word")
+      elif guesslearn == 'r':
+        counter = (counter-1)
+        print("That is the fourth letter of your word")
+      elif guesslearn == 'n':
+        counter = (counter-1)
+        print("That is the last letter of your word")
+      else:
+        print("That letter is not in your word")
+      if counter == 0 :
+        print("Congrats you have figured out your word: LEARN")
+  learnguess()
+
+elif finalhmword == crazy :
+  print(finalhmword)
+  def crazyguess():
+    counter = 5
+    while counter != 0:
+      crazybrave = input("Guess a letter:")
+      if guesscrazy == 'c':
+        counter = (counter-1)
+        print("That is the first letter of your word")
+      elif guesscrazy == 'r':
+        counter = (counter-1)
+        print("That is the second letter of your word")
+      elif guesscrazy == 'a':
+        counter = (counter-1)
+        print("That is the third letter of your word")
+      elif guesscrazy == 'z':
+        counter = (counter-1)
+        print("That is the fourth letter of your word")
+      elif guesscrazy == 'y':
+        counter = (counter-1)
+        print("That is the last letter of your word")
+      else:
+        print("That letter is not in your word")
+      if counter == 0 :
+        print("Congrats you have figured out your word: CRAZY")
+  crazyguess()
+
+elif finalhmword == graze :
+  print(finalhmword)
+  def grazeguess():
+    counter = 5
+    while counter != 0:
+      guessgraze = input("Guess a letter:")
+      if guessgraze == 'g':
+        counter = (counter-1)
+        print("That is the first letter of your word")
+      elif guessgraze == 'r':
+        counter = (counter-1)
+        print("That is the second letter of your word")
+      elif guessgraze == 'a':
+        counter = (counter-1)
+        print("That is the third letter of your word")
+      elif guessgraze == 'z':
+        counter = (counter-1)
+        print("That is the fourth letter of your word")
+      elif guessgraze == 'e':
+        counter = (counter-1)
+        print("That is the last letter of your word")
+      else:
+        print("That letter is not in your word")
+      if counter == 0 :
+        print("Congrats you have figured out your word: GRAZE")
+  grazeguess()
+
+elif finalhmword == quick :
+  print(finalhmword)
+  def quickguess():
+    counter = 5
+    while counter != 0:
+      guessquick = input("Guess a letter:")
+      if guessquick == 'q':
+        counter = (counter-1)
+        print("That is the first letter of your word")
+      elif guessquick == 'u':
+        counter = (counter-1)
+        print("That is the second letter of your word")
+      elif guessquick == 'i':
+        counter = (counter-1)
+        print("That is the third letter of your word")
+      elif guessquick == 'c':
+        counter = (counter-1)
+        print("That is the fourth letter of your word")
+      elif guessquick == 'k':
+        counter = (counter-1)
+        print("That is the last letter of your word")
+      else:
+        print("That letter is not in your word")
+      if counter == 0 :
+        print("Congrats you have figured out your word: QUICK")
+  quickguess()
